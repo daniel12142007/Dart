@@ -32,4 +32,13 @@ void main() {
   //     (element) => element < 10); //удаляет элементы по заданому условию
   // print(array);
   // var set = {1,1,2,3,4,5,6};//Set<int> сохраняет только уникальные значение
+
+  var array = [1, 2, 3, 4, 5, 6];
+  for (var element in array) {
+    print(element);
+  } //foreach in java
+
+  array.forEach((el) {
+    print(el);
+  });
 }
